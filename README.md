@@ -62,8 +62,8 @@ Telepathy is an AI-powered desktop automation agent that observes your screen, u
 
 1.  **Clone the repository (if applicable):**
     ```bash
-    # git clone <your-repo-url>
-    # cd <your-repo-name>
+    # git clone <https://github.com/old-droid/Telepathy.git>
+    # cd <telepathy>
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -126,6 +126,6 @@ Modify the `.env` file to customize:
 Once configured, run the main script:
 
 ```bash
-python code.py
+python code.py'
 
-MADE by Fiberr.co non-profit.
+#MADE by Fiberr.co non-profit.
