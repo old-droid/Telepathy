@@ -1,0 +1,14 @@
+pyautogui
+ollama
+requests
+python-dotenv
+chromadb>=0.4.22,<0.5.0 
+# chromadb<0.5.0 because 0.5.0 has breaking changes for default embedding functions.
+# We are using OllamaEmbeddingFunction explicitly, but good to pin for stability.
+# sentence-transformers # Not directly used if relying on Ollama for embeddings, but good for alternatives
+psutil # PyAutoGUI dependency, good to have explicitly. Also useful for process info.
+# Platform-specific for get_foreground_app:
+# Windows: pywin32 is often needed for advanced ctypes usage or alternative methods.
+# psutil can sometimes get process name from PID on windows too.
+# Linux: python-xlib (if using Xlib directly, but xdotool is via subprocess)
+# User needs to ensure 'xdotool' and 'ps' (from procps or procps-ng) are installed on Linux.
