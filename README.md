@@ -73,11 +73,10 @@ Telepathy is an AI-powered desktop automation agent that observes your screen, u
     ```
 
 3.  **Install Python dependencies:**
-    The dependencies are listed in `code.txt`. It's best to rename this to `requirements.txt` or use it directly:
+    The dependencies are listed in `code.txt`.  or use it directly:
     ```bash
-    # Option 1: Rename and install
-    # mv code.txt requirements.txt
-    # pip install -r requirements.txt
+    # mv code.txt 
+    # pip install -r code.txt
 
     # Option 2: Install directly from code.txt
     pip install -r code.txt
@@ -128,3 +127,5 @@ Once configured, run the main script:
 
 ```bash
 python code.py
+
+MADE by Fiberr.co non-profit.
