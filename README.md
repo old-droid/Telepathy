@@ -1,4 +1,5 @@
 # Telepathy AI Desktop Automator
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/YCPDk1c/Screenshot-20250517-190343.png" alt="Screenshot-20250517-190343" border="0"></a>
 
 Telepathy is an AI-powered desktop automation agent that observes your screen, understands context using multimodal AI (Ollama/Llava), and executes actions using PyAutoGUI. It features a Retrieval Augmented Generation (RAG) system that can leverage your Obsidian notes and learned command patterns to make more informed decisions.
 
